@@ -16,7 +16,6 @@ void draw() {
          xx=0; 
         }
         fill(0);
-        println(xx);
         text(x[xx], w, h);
         xx++;
       

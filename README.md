@@ -1,5 +1,5 @@
 # bookcoverimage
-Generating the pattern of unix throbber with Processing
+Generating a random pattern (based on an array of symbols) with Processing
 #Function
 - Generating pattern
-- Save file in TIF format
+- Save high resolution file in TIF format

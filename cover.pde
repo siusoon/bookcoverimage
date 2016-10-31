@@ -14,6 +14,7 @@ void setup() {
 }
 
 void draw() {
+
     scale(200/72.0);
     for (int h = 0; h < height; h+=10) {
       for (int w = 0; w< width; w+=10) {   
@@ -26,14 +27,11 @@ void draw() {
         int y = int(random(0, x.length));
         //text(x[xx], w, h);
         text(x[y], w, h);
-        xx++;    
+        xx++;
+      
     }
+
 }
 endRecord();
 noLoop();
-}
-
-void keyPressed() {
-  save("screen-cover01.tif");
-  exit();
 }
